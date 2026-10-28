@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>For you | オリジナルプリントギフト</title>
+<style>
+:root{--ink:#332b27;--muted:#796e68;--line:#e9e4de;--cream:#f7f4ef}*{box-sizing:border-box}body{margin:0;background:#fff;color:var(--ink);font-family:'Yu Gothic','Hiragino Kaku Gothic ProN',sans-serif}main{max-width:560px;margin:auto}.hero{text-align:center;padding:30px 18px 22px;background:#faf9f7}.brand{font:normal 44px Georgia,serif;letter-spacing:2px}.eyebrow{font:10px Georgia,serif;letter-spacing:4px;margin-top:3px}.tag{font-family:'Yu Mincho',serif;font-size:17px;letter-spacing:3px;margin:18px 0 0}.heading{font-size:12px;letter-spacing:3px;text-align:center;color:#84766d;margin:18px 0 9px}.item{display:grid;grid-template-columns:116px 1fr 20px;align-items:center;gap:14px;padding:12px 17px;border-bottom:1px solid var(--line);cursor:pointer}.photo{width:116px;height:100px;object-fit:cover;border-radius:3px;background:var(--cream)}.placeholder{display:grid;place-items:center;text-align:center;padding:10px;color:#958a80;font-size:12px;background:linear-gradient(135deg,#f3ece4,#e8dfd5)}.name{font-family:'Yu Mincho',serif;font-size:16px;font-weight:600;line-height:1.5}.desc{font-size:11px;color:var(--muted);margin:4px 0}.price{font-size:14px;font-weight:600}.arrow{font-size:22px;color:#a99a90;font-weight:200}.detail{display:none;background:#faf8f5;padding:16px 20px;font-size:13px;line-height:1.9;border-bottom:1px solid var(--line)}.detail.open{display:block}.detail p{margin:0 0 8px}.note{text-align:center;color:#8c8179;font-size:10px;padding:17px 15px 28px;line-height:1.8}button.item{width:100%;border-top:0;border-left:0;border-right:0;background:white;text-align:left;font:inherit}button.item:focus-visible{outline:2px solid #8b7669;outline-offset:-2px}@media(max-width:350px){.item{grid-template-columns:95px 1fr 14px;gap:10px;padding:10px}.photo{width:95px;height:86px}.name{font-size:14px}}
+</style>
+</head>
+<body><main>
+<header class="hero"><div class="brand">For you</div><div class="eyebrow">ORIGINAL PRINT GIFT</div><p class="tag">想いを、かたちに。</p></header>
+<div class="heading">商品一覧 &nbsp; / &nbsp; LINE UP</div>
+<section>
+<button class="item" aria-expanded="false" aria-controls="d1" onclick="toggle(this,'d1')"><div class="photo placeholder">商品写真<br>準備中</div><div><div class="name">プリントクッキー</div><div class="desc">写真・イラスト・名入れ対応</div><div class="price">1,000円〜（仮）</div></div><span class="arrow">›</span></button>
+<div class="detail" id="d1"><p>お好きな写真やイラストをプリントしたオリジナルクッキー。誕生日・内祝い・企業ノベルティにも。</p><p>1枚からご相談可能。常温保存・賞味期限90日（商品仕様により要確認）。</p><p>※セット内容・送料・正式価格はお問い合わせ時にご案内します。</p></div>
+<button class="item" aria-expanded="false" aria-controls="d2" onclick="toggle(this,'d2')"><div class="photo placeholder">商品写真<br>準備中</div><div><div class="name">プリントどら焼き</div><div class="desc">和の贈り物・記念品に</div><div class="price">1,300円〜（仮）</div></div><span class="arrow">›</span></button>
+<div class="detail" id="d2"><p>メッセージやオリジナルデザインで、特別などら焼きギフトに。</p><p>8個入りなど、セット内容・納期・正式価格はご注文前にご確認ください。</p></div>
+<button class="item" aria-expanded="false" aria-controls="d3" onclick="toggle(this,'d3')"><div class="photo placeholder">商品写真<br>準備中</div><div><div class="name">オリジナルドリップコーヒー</div><div class="desc">パッケージを自由にデザイン</div><div class="price">価格確認中</div></div><span class="arrow">›</span></button>
+<div class="detail" id="d3"><p>クラフトパックにオリジナルデザインを施したドリップコーヒー。プチギフトや販促品にもおすすめです。</p><p>数量・仕様・価格はお問い合わせください。</p></div>
+</section><footer class="note">掲載内容・価格は準備中です。正式公開前にご確認ください。</footer>
+</main><script>function toggle(btn,id){const el=document.getElementById(id),opening=!el.classList.contains('open');el.classList.toggle('open',opening);btn.setAttribute('aria-expanded',String(opening));btn.querySelector('.arrow').textContent=opening?'⌄':'›'}</script></body></html>
